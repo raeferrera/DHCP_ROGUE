@@ -71,6 +71,7 @@ A diferencia del Starvation, este ataque **no busca denegar el servicio** sino r
   IP: 10.21.23.50   DHCP → recibe gateway FALSO 10.21.23.50
   (actúa como GW)
 ```
+<img width="482" height="365" alt="image" src="https://github.com/user-attachments/assets/0ac67a6b-47b0-40d4-95a8-02b5b15a0eff" />
 
 **Resultado del ataque:** La víctima cree que el atacante (10.21.23.50) es su gateway. Todo su tráfico pasa por el atacante antes de llegar a Internet.
 
